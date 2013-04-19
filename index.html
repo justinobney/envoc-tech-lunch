@@ -5,20 +5,7 @@
   <title>Justin Obney</title>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css">
-  <style type="text/css" rel="stylesheet">
-    body {
-      padding-top: 60px;
-    }
-    .floatingHeader {
-      position: fixed;
-      top: 40px;
-      visibility: hidden;
-    }
-
-    .table thead tr {
-      background: #FFF;
-    }
-  </style>
+  <link rel="stylesheet" href="app.css">
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -70,12 +57,12 @@
           </div>
         </div><!--/span-->
         <div class="span3">
-          <div class="well" style="width:300px; padding: 8px 0;">
+          <div class="well" style="padding: 8px 0;">
               <div style="overflow-y: scroll; overflow-x: hidden; height: 500px;">
                   <ul class="nav nav-list">
                       <li><label class="tree-toggler nav-header">Header 1</label>
                           <ul class="nav nav-list tree">
-                              <li><a href="#">Link</a></li>
+                              <li><a href="#" id="toggleNav">Toggle Nav Bar</a></li>
                               <li><a href="#">Link</a></li>
                               <li><label class="tree-toggler nav-header">Header 1.1</label>
                                   <ul class="nav nav-list tree">

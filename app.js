@@ -16,4 +16,9 @@ function tick(){
     return exports;
 }
 
+// RAWR
+jQuery(document).on('click', '#toggleNav', function(){
+    $('.navbar').toggle();
+});
+
 var ticker = tick();
